@@ -1,0 +1,6 @@
+C:\Users\derpr\source\repos\FirstGUI2\FirstGUI2\x64\Debug\FirstGUI2.vcxproj.AssemblyReference.cache
+C:\Users\derpr\source\repos\FirstGUI2\FirstGUI2\x64\Debug\FirstGUI2.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\derpr\source\repos\FirstGUI2\FirstGUI2\x64\Debug\FirstGUI2.LoginMenu.resources
+C:\Users\derpr\source\repos\FirstGUI2\FirstGUI2\x64\Debug\FirstGUI2.ParameterInputDialog.resources
+C:\Users\derpr\source\repos\FirstGUI2\FirstGUI2\x64\Debug\FirstGUI2.SettingsMenuForm.resources
+C:\Users\derpr\source\repos\FirstGUI2\FirstGUI2\x64\Debug\FirstGUI2.vcxproj.GenerateResource.cache

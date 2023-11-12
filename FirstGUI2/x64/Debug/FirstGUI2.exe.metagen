@@ -1,0 +1,45 @@
+  FirstGUI2.LoginMenu.resources - Embedded, ContainedInManifestFile, 
+  FirstGUI2.ParameterInputDialog.resources - Embedded, ContainedInManifestFile, 
+  FirstGUI2.SettingsMenuForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly FirstGUI2, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class PlantUI.SettingsMenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[Plant] plantList : Public
+    SByte[] minData : Public
+  Methods:
+    UpdatePlantNameLabel(String): PrivateScope, Public, HideBySig
+    UpdateWaterLevelLabel(): PrivateScope, Public, HideBySig
+    UpdateRotationsLabel(): PrivateScope, Public, HideBySig
+Class PlantUI.LoginMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(PlantUI.SettingsMenuForm): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ComponentModel.BackgroundWorker uartWorker : Public
+  Methods:
+    receiveUARTdata(): PrivateScope, Public, HideBySig
+    HideLoginFormAndShowSettingsMenuForm(): PrivateScope, Public, HideBySig
+    uartWorker_DoWork(Object, DoWorkEventArgs): PrivateScope, Public, HideBySig
+    InitializeComponent(): PrivateScope, Public, HideBySig
+Class PlantUI.ParameterInputDialog: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName

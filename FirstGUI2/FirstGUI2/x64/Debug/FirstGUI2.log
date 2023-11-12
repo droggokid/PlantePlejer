@@ -1,0 +1,5 @@
+﻿  LoginMenu.cpp
+C:\Users\derpr\source\repos\FirstGUI2\FirstGUI2\SettingsMenuForm.h(56,26): warning C4677: 'plantList': signature of non-private member contains assembly private type 'Plant'
+C:\Users\derpr\source\repos\FirstGUI2\FirstGUI2\SettingsMenuForm.h(9,11): message : see declaration of 'Plant'
+  LoginMenu.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  FirstGUI2.vcxproj -> C:\Users\derpr\source\repos\FirstGUI2\x64\Debug\FirstGUI2.exe
