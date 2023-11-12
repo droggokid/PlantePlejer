@@ -1,1 +1,12 @@
-# PlantePlejer
+# PlantePlejeren
+This 2nd semester report has been prepared using the Semester Project model, with the topic "Home Automation System." Based on this topic, we have chosen to develop an automatic plant care system that can take care of plants through watering and rotation. We have written embedded software for the Arduinos, so the receivers can control a pump and motor, the transmitter can communicate with the computer, and they can communicate through the power line using the X.10 protocol. The data sent over the power line is structured according to a protocol that we have developed ourselves. We have also implemented a code lock so that only the user can access the system, and we have developed a graphical user interface to configure the plant care system. The entire system consists of 2 Arduinos (transmitter and receiver), a pump and motor for the receiver Arduino, an Altera DE2 board for the code lock, and a PC. To enable communication between the PC and the transmitter Arduino, we have used the UART protocol. 
+We never managed to test the entire system at once, but 3 out of 4 of our use cases were successfully completed.
+
+Software beskrivelse - GUI
+I forbindelse med Windows Forms i .NET Framework, består vores GUI modul af en række klasser skrevet i traditionel C++ sprog, og nogle forms skrevet i CLI projekter. Når der kommer til (C++/CLI) udvikling, refererer et CLI (Common Language Infrastructure) projekt til et projekt der er rettet mod .NET runtime miljøet, hvilket giver mulighed for at skrive kode i C++ sproget og bruge .NET Framework samtidigt. 
+Forms er grundlæggende i forhold til opbygning af desktop applikationer ved hjælp af Windows Forms i C++/CLI. En form i Windows Forms refererer til en grafisk brugergrænseflade container, der giver en visuel repræsentation af et vindue eller dialogboks. 
+Vi har haft særlig fokus på afvigelsen fra standard C++ programmering i et C++/CLI projekt, der har en læringskurve, som vi har skullet overvinde. Det adskiller sig fra standard C++ programmering på nogle få vigtige måder såsom fraværet af referencer og pointers, og anvendelsen af handles, med symbolet ‘^’. Handles linger pointere i standard C++, men de giver automatisk hukommelseshåndtering og affaldsopsamling. Handles bruges til henvisning af administrerede objekter og muliggør interoperabilitet mellem administreret og ikke administreret kode.
+
+PlantePlejeren - SW Gruppe 09 kan læses her: https://docs.google.com/document/d/1STvFZhGhvx3pGSoIkM2PJIL88TblCG7h6A9R2bY1xC0/edit?usp=sharing
+
+GUI Modul beskrivelsen i sin helhed kan læses her: https://docs.google.com/document/d/1K0TksOg5ZJXwVoSe8IFSTqRcA7fcR-7vlLHu4y1QEo8/edit?usp=sharing
